@@ -4694,6 +4694,7 @@ fieldset:disabled .btn {
 .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9);
 }
+
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
@@ -12021,8 +12022,8 @@ header.masthead .masthead-heading {
   text-align: center;
 }
 .team-member img {
-  width: 14rem;
-  height: 14rem;
+  width: 13rem;
+  height: 13rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4,

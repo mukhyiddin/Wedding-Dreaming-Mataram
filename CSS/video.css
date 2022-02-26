@@ -1,0 +1,43 @@
+        @font-face {
+            font-family: fontku;
+            src: url(../Font/Blacksword.otf);
+        }
+
+        h1 {
+            font-family: fontku;
+            padding-top: 7rem;
+        }
+
+        h3 {
+            font-family: fontku;
+            padding-top: 5rem;
+            text-align: center;
+            color: #FED136;
+        }
+
+        p {
+            font-family: montserrat;
+        }
+
+        .videoframe {
+            height: 350px;
+            width: 513px;
+        }
+
+        iframe {
+            padding-top: 3rem;
+        }
+
+        #logo {
+            width: 10%;
+            display: block;
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+            transition: all 100ms ease-out;
+        }
+
+        #logo:hover {
+            transform: scale(1.04);
+            -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+        }
