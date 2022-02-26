@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Wedding Dreaming Mataram</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="CSS/index.css" rel="stylesheet" />
-  </head>
-  <body id="page-top">
-    <!-- Navigation-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Wedding Dream</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="CSS/index.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+  <!-- Navigation-->
+  <header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.png" alt="..." /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <a id="logo" href="#"><img width="100px" height="50px" src="assets/img/navbar-logo.png" alt="..." /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars ms-1"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
             <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-            <!-- <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li> -->
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">portfolio</a>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Photographer</a></li>
-      <li><a class="dropdown-item" href="#">Vidiographer</a></li>
-      <li><a class="dropdown-item" href="#">Decoration</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Wedding Dream Mataram</a></li>
-    </ul>
+            <div class="dropdown">
+              <a style="color: white;" class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Portofolio
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="porto-foto.html">Photographer</a></li>
+                <li><a class="dropdown-item" href="porto-video.html">Vidiographer</a></li>
+                <li><a class="dropdown-item" href="porto-dekorasi.html">Decoration</a></li>
+              </ul>
+            </div>
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -44,615 +50,687 @@
         </div>
       </div>
     </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-      <div class="container">
+  </header>
+
+  <!-- Masthead-->
+  <header class="masthead">
+    <div class="container-fluid">
+
+      <div style="background-color: black; opacity: 60%;">
         <div class="masthead-subheading">Welcome To Your Dream Wedding!</div>
-        <div class="masthead-heading text-uppercase">PLAN YOUR BEST WEDDING</div>
-        <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+        <div style="z-index: 1;" class="masthead-heading text-uppercase">PLAN YOUR BEST WEDDING</div>
       </div>
-    </header>
-    <!-- Services-->
-    <section class="page-section" id="services">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Services</h2>
-          <h3 class="section-subheading text-muted">wedding planner and one f the top vendor in Bridestory</h3>
+
+      <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+    </div>
+  </header>
+  <!-- Services-->
+  <section class="page-section" id="services">
+    <div class="container">
+      <div class="text-center">
+        <h2 id="tagline" class="section-heading">Services</h2>
+        <h3 class="section-subheading text-muted">wedding planner and one f the top vendor in Bridestory</h3>
+        <hr>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-hand-holding-heart fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3">Wedding</h4>
+          <p class="text-muted">Kini tak perlu lagi pusing dalam proses perencanaan dan persiapan pernikahan impian
+            anda. Serahkan saja pada Wedding Dream Mataram yang selalu siap membantu anda mewujudkan impian pernikahan
+            anda dengan mulus.</p>
         </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="my-3">Wedding</h4>
-            <p class="text-muted">Kini tak perlu lagi pusing dalam proses perencanaan dan persiapan pernikahan impian anda. Serahkan saja pada Wedding Dream Mataram yang selalu siap membantu anda mewujudkan impian pernikahan anda dengan mulus.</p>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-building fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3">Decoration</h4>
+          <p class="text-muted">Ballroom maupun Outdoor, Promo menarik paket dekorasi pernikahaan tersedia di Wedding
+            Dream Mataram! temukan paket dekorasi pernikahan yang sesuai budget dari vendor terbaik di Bridestory</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-camera fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="my-3">Photographer and Vidiographer</h4>
+          <p class="text-muted">Abadikan Momen Bahagiamu dengan pasangan saat hari pernikahaan dengan photographer dan
+            vidiographer profesional handal disini.</p>
+        </div>
+        <a class="btn btn-primary btn-xl text-uppercase" href="#">Price list</a>
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio Grid-->
+  <section class="page-section bg-light" id="portfolio">
+    <div class="container">
+      <div class="text-center">
+        <h2 id="tagline" class="section-heading">Portofolio</h2>
+        <h3 class="section-subheading text-muted">Wedding Organizer Profesional.</h3>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <!-- Portfolio item 1-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Cantik dan Elegan</div>
+              <div class="portfolio-caption-subheading text-muted">MUA profesional dari Wedding-Dream-Mataram</div>
+            </div>
           </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="my-3">Decoration</h4>
-            <p class="text-muted">Ballroom maupun Outdoor, Promo menarik paket dekorasi pernikahaan tersedia di Wedding Dream Mataram! temukan paket dekorasi pernikahan yang sesuai budget dari vendor terbaik di Bridestory</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <!-- Portfolio item 2-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Indoor</div>
+              <div class="portfolio-caption-subheading text-muted">Melangsungkan pernikahan Indoor memberikan nuangsa
+                mewah.</div>
+            </div>
           </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="my-3">Photographer and Vidiographer</h4>
-            <p class="text-muted">Abadikan Momen Bahagiamu dengan pasangan saat hari pernikahaan dengan photographer dan vidiographer profesional handal disini.</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <!-- Portfolio item 3-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Outdoor</div>
+              <div class="portfolio-caption-subheading text-muted">Melakukan pernikahan outdoor dengan konsep elegan
+                sesuai keinginan anda.</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+          <!-- Portfolio item 4-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Photographer</div>
+              <div class="portfolio-caption-subheading text-muted">Abadikan setiap momen kebahagiaan anda dengan
+                photographer handal.</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+          <!-- Portfolio item 5-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Vidiographer</div>
+              <div class="portfolio-caption-subheading text-muted">Abadikan dan simpan semua cerita bahagia anda melalui
+                vidio yang bisa diputar kapan saja</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <!-- Portfolio item 6-->
+          <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+            </a>
+            <div class="portfolio-caption">
+              <div class="portfolio-caption-heading">Band akustik wedding</div>
+              <div class="portfolio-caption-subheading text-muted">Memeriahkan acara pernikahaan anda dengan Band
+                akustik terbaik dimataram.</div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Portfolio Grid-->
-    <section class="page-section bg-light" id="portfolio">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted">Wedding Organizer Profesional.</h3>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <!-- Portfolio item 1-->
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Cantik dan Elegan</div>
-                <div class="portfolio-caption-subheading text-muted">MUA profesional dari Wedding-Dream-Mataram</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <!-- Portfolio item 2-->
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Indoor</div>
-                <div class="portfolio-caption-subheading text-muted">Melangsungkan pernikahan Indoor memberikan nuangsa mewah.</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <!-- Portfolio item 3-->
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Outdoor</div>
-                <div class="portfolio-caption-subheading text-muted">Melakukan pernikahan outdoor dengan konsep elegan sesuai keinginan anda.</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-            <!-- Portfolio item 4-->
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Photographer</div>
-                <div class="portfolio-caption-subheading text-muted">Abadikan setiap momen kebahagiaan anda dengan photographer handal.</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-            <!-- Portfolio item 5-->
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Vidiographer</div>
-                <div class="portfolio-caption-subheading text-muted">Abadikan dan simpan semua cerita bahagia anda melalui vidio yang bisa diputar kapan saja</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <!-- Portfolio item 6-->
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Band akustik wedding</div>
-                <div class="portfolio-caption-subheading text-muted">Memeriahkan acara pernikahaan anda dengan Band akustik terbaik dimataram.</div>
-              </div>
-            </div>
-          </div>
-        </div>
+    </div>
+  </section>
+  <!-- About-->
+  <section class="page-section" id="about">
+    <div class="container">
+      <div class="text-center">
+        <h2 id="tagline" class="section-heading">About</h2>
+        <h3 class="section-subheading text-muted">Semua tentang kami disini.</h3>
+        <hr>
       </div>
-    </section>
-    <!-- About-->
-    <section class="page-section" id="about">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
-          <h3 class="section-subheading text-muted">Semua tentang kami disini.</h3>
-        </div>
-        <ul class="timeline">
-          <li>
-            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>2012-2022</h4>
-                <h4 class="subheading">Sudah berpangalaman selama 10 tahun</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">
-                  Tentu saja untuk memilih Wedding Organizer membutuhkan  banyak pertimbangan karna kita menginginkan acara yang berjalan sempurna. Salah satu bahan pertimbangan adalah dari segi pengalaman karna semakin banyak pengalaman  atau portfolio maka makin terjamin kualitasnya. Pengalaman ini tak hanya soal rekanan vendor yang luas. Pengalaman dari Wedding  Organizer juga berpengaruh pada proses persiapan. artinya Wedding Organizer tersebut sudah terbiasa dengan berbagai kendala atau hal-hal yang berhubungan dengan persiapan pernikahan, nah maka sekarang kamu gak perlu khawatir karna tepat 5 februari kemarin Wedding Dream Mataram sudah berusia 10 tahun atau bisa dikatakan berpngalam dibidangnya selama 10 ttahun ini.
-                </p>
-              </div>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." />
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>2012-2022</h4>
+              <h4 class="subheading">Sudah berpangalaman selama 10 tahun</h4>
             </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>410</h4>
-                <h4 class="subheading">Sudah dipercaya oleh 400an calon pengantin</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">
-                  Wedding Dream Mataram yang sudah berkecimpung lebih dari 10 tahun dalam hal jasa Wedding Organizer. Salah satu motto kita  adalah menjamin semua acara berjalan dengan lancar tanpa ada kendala. jadi sampai sejauh ini kami sudah dpercayai lebih dari 400 pasangan untuk membantu mengkodinir semua acara agar berjalan sesuai rencana.
-                </p>
-              </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Tentu saja untuk memilih Wedding Organizer membutuhkan banyak pertimbangan karna kita menginginkan acara
+                yang berjalan sempurna. Salah satu bahan pertimbangan adalah dari segi pengalaman karna semakin banyak
+                pengalaman atau portfolio maka makin terjamin kualitasnya. Pengalaman ini tak hanya soal rekanan vendor
+                yang luas. Pengalaman dari Wedding Organizer juga berpengaruh pada proses persiapan. artinya Wedding
+                Organizer tersebut sudah terbiasa dengan berbagai kendala atau hal-hal yang berhubungan dengan persiapan
+                pernikahan, nah maka sekarang kamu gak perlu khawatir karna tepat 5 februari kemarin Wedding Dream
+                Mataram sudah berusia 10 tahun atau bisa dikatakan berpngalam dibidangnya selama 10 ttahun ini.
+              </p>
             </div>
-          </li>
-          <li>
-            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>60 staff</h4>
-                <h4 class="subheading">staff terlengkap</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">
-                Memiliki staf yang lengkap dengan harapan dapat membantu proses acara dengan lancar, dimana kita memiliki staf MUA sebanyak 15 orang, staf dekorasi sebanyak 20 orang, staf photographer sebanyak 8 orang, staf vidiographer sebanyak 9 orang, dan anggota band sebanyak 8 orang.
-                </p>
-              </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." />
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>410</h4>
+              <h4 class="subheading">Sudah dipercaya oleh 400an calon pengantin</h4>
             </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>Paket Lengkap</h4>
-                <h4 class="subheading">Satu untuk semua</h4>
-              </div>
-              <div class="timeline-body">
-                <p class="text-muted">
-                 Akan banyak keuntungan bila kamu memakai Wedding Dream mataram. Wedding dream Mataram  sangat berpengalaman menghadapi  kendala dan msalah dalam level ringan maupun berat, selain itu Wedding Dream Mataram memiliki paket pernikahan lengkap  yang memiliki banyak team  yang siap untuk mendampingi kamu dan pasangan. Bahkan kamu akan mendapatkan satu orang khusus yang membantu komunikasi dengan pihak Wedding Dream Mataram agar lebih memudahkan urusan kerja samanya.
-                </p>
-              </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Wedding Dream Mataram yang sudah berkecimpung lebih dari 10 tahun dalam hal jasa Wedding Organizer.
+                Salah satu motto kita adalah menjamin semua acara berjalan dengan lancar tanpa ada kendala. jadi sampai
+                sejauh ini kami sudah dpercayai lebih dari 400 pasangan untuk membantu mengkodinir semua acara agar
+                berjalan sesuai rencana.
+              </p>
             </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>
-                make your
-                <br />
-                Dream
-                <br />
-                come true!
-              </h4>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." />
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>60 staff</h4>
+              <h4 class="subheading">staff terlengkap</h4>
             </div>
-          </li>
-        </ul>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Memiliki staf yang lengkap dengan harapan dapat membantu proses acara dengan lancar, dimana kita
+                memiliki staf MUA sebanyak 15 orang, staf dekorasi sebanyak 20 orang, staf photographer sebanyak 8
+                orang, staf vidiographer sebanyak 9 orang, dan anggota band sebanyak 8 orang.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." />
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Paket Lengkap</h4>
+              <h4 class="subheading">Satu untuk semua</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Akan banyak keuntungan bila kamu memakai Wedding Dream mataram. Wedding dream Mataram sangat
+                berpengalaman menghadapi kendala dan msalah dalam level ringan maupun berat, selain itu Wedding Dream
+                Mataram memiliki paket pernikahan lengkap yang memiliki banyak team yang siap untuk mendampingi kamu dan
+                pasangan. Bahkan kamu akan mendapatkan satu orang khusus yang membantu komunikasi dengan pihak Wedding
+                Dream Mataram agar lebih memudahkan urusan kerja samanya.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <h4>
+              make your
+              <br />
+              Dream
+              <br />
+              come true!
+            </h4>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Team-->
+  <section class="page-section bg-light" id="team">
+    <div class="container">
+      <div class="text-center">
+        <h2 id="tagline" class="section-heading">Our Amazing Team</h2>
+        <h3 class="section-subheading text-muted">Team terbaik ada disini!</h3>
+        <hr>
       </div>
-    </section>
-    <!-- Team-->
-    <section class="page-section bg-light" id="team">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-          <h3 class="section-subheading text-muted">Team terbaik ada disini!</h3>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-              <h4>Titin Adrina Febrianti</h4>
-              <p class="text-muted">MUA</p>
-              <a class="btn btn-dark btn-social mx-2" href="https://wa.me/085238888808"><i class="fab fa-whatsapp"></i></a>
-              <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/titin.adrina.febrianti/"><i class="fab fa-facebook-f"></i></a>
-              <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/titinku_/"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-              <h4>Mukhyiddin</h4>
-              <p class="text-muted">Decoration</p>
-              <a class="btn btn-dark btn-social mx-2" href="https://wa.me/081357553182"><i class="fab fa-whatsapp"></i></a>
-              <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/yudi.punya.20/"><i class="fab fa-facebook-f"></i></a>
-              <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/yudi_sinss/"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-              <h4>Ahmad Rizki Gunawan</h4>
-              <p class="text-muted">Photographer and Vidiographer</p>
-              <a class="btn btn-dark btn-social mx-2" href="https://wa.me/087758740088"><i class="fab fa-whatsapp"></i></a>
-              <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/rizki.gunawan.589100"><i class="fab fa-facebook-f"></i></a>
-              <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/rizkiagunawan/"><i class="fab fa-instagram"></i></a>
-            </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
+            <h4>Titin Adrina Febrianti</h4>
+            <p class="text-muted">MUA</p>
+            <a class="btn btn-dark btn-social mx-2" href="https://wa.me/085238888808" target="_blank"><i
+                class="fab fa-whatsapp"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/titin.adrina.febrianti/"
+              target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/titinku_/" target="_blank"><i
+                class="fab fa-instagram"></i></a>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
+            <h4>Mukhyiddin</h4>
+            <p class="text-muted">Decoration</p>
+            <a class="btn btn-dark btn-social mx-2" href="https://wa.me/081357553182" target="_blank"><i
+                class="fab fa-whatsapp"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/yudi.punya.20/" target="_blank"><i
+                class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/yudi_sinss/" target="_blank"><i
+                class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+            <h4>Ahmad Rizki Gunawan</h4>
+            <p class="text-muted">Photographer and Vidiographer</p>
+            <a class="btn btn-dark btn-social mx-2" href="https://wa.me/087758740088" target="_blank"><i
+                class="fab fa-whatsapp"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/rizki.gunawan.589100"
+              target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/rizkiagunawan/" target="_blank"><i
+                class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="assets/img/team/4.jpg" alt="..." />
             <h4>Hana Febriana</h4>
             <p class="text-muted">Vendor Entertainment music</p>
-            <a class="btn btn-dark btn-social mx-2" href="https://wa.me/085337688259"><i class="fab fa-whatsapp"></i></a>
-            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/hana.fitriana.129"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/fitrianihn_/"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Tugas wedding organizer adalah membantu calon pengantin untuk mewujudkan pernikahan impian mereka dan memastikan bahwa seluruh rangkaian acara berjalan lancar.</p>
+            <a class="btn btn-dark btn-social mx-2" href="https://wa.me/085337688259" target="_blank"><i
+                class="fab fa-whatsapp"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/hana.fitriana.129" target="_blank"><i
+                class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/fitrianihn_/" target="_blank"><i
+                class="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Clients-->
-    <div class="py-5">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-3 col-sm-6 my-3">
-            <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." /></a>
-          </div>
-          <div class="col-md-3 col-sm-6 my-3">
-            <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." /></a>
-          </div>
-          <div class="col-md-3 col-sm-6 my-3">
-            <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." /></a>
-          </div>
-          <div class="col-md-3 col-sm-6 my-3">
-            <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." /></a>
-          </div>
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <p class="large text-muted">Tugas wedding organizer adalah membantu calon pengantin untuk mewujudkan
+            pernikahan impian mereka dan memastikan bahwa seluruh rangkaian acara berjalan lancar.</p>
         </div>
       </div>
     </div>
-    <!-- Contact-->
-    <section class="page-section" id="contact">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase">Contact Us</h2>
-        </div>
-        <!-- * * * * * * * * * * * * * * *-->
-        <!-- * * SB Forms Contact Form * *-->
-        <!-- * * * * * * * * * * * * * * *-->
-        <!-- This form is pre-integrated with SB Forms.-->
-        <!-- To make this form functional, sign up at-->
-        <!-- https://startbootstrap.com/solution/contact-forms-->
-        <!-- to get an API token!-->
-        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-          <div class="row align-items-stretch mb-5">
-            <div class="col-md-6">
-              <div class="form-group">
-                <!-- Name input-->
-                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-              </div>
-              <div class="form-group">
-                <!-- Email address input-->
-                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-              </div>
-              <div class="form-group mb-md-0">
-                <!-- Phone number input-->
-                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group form-group-textarea mb-md-0">
-                <!-- Message input-->
-                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-              </div>
-            </div>
-          </div>
-          <!-- Submit success message-->
-          <!---->
-          <!-- This is what your users will see when the form-->
-          <!-- has successfully submitted-->
-          <div class="d-none" id="submitSuccessMessage">
-            <div class="text-center text-white mb-3">
-              <div class="fw-bolder">Form submission successful!</div>
-              To activate this form, sign up at
-              <br />
-              <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-            </div>
-          </div>
-          <!-- Submit error message-->
-          <!---->
-          <!-- This is what your users will see when there is-->
-          <!-- an error submitting the form-->
-          <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-          <!-- Submit Button-->
-          <!-- <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div> -->
-          <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/085238888808">Send Message</a>
-        </form>
+  </section>
+
+  <!-- Contact-->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Contact Us</h2>
       </div>
-    </section>
-    <!-- Footer-->
-    <footer class="footer py-4">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
-          <div class="col-lg-4 my-3 my-lg-0">
-            <a class="btn btn-dark btn-social mx-2" href="https://wa.me/085238888808"><i class="fab fa-whatsapp"></i></a>
-            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/titin.adrina.febrianti/"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/titinku_/"><i class="fab fa-instagram"></i></a>
-         
+      <!-- * * * * * * * * * * * * * * *-->
+      <!-- * * SB Forms Contact Form * *-->
+      <!-- * * * * * * * * * * * * * * *-->
+      <!-- This form is pre-integrated with SB Forms.-->
+      <!-- To make this form functional, sign up at-->
+      <!-- https://startbootstrap.com/solution/contact-forms-->
+      <!-- to get an API token!-->
+      <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+        <div class="row align-items-stretch mb-5">
+          <div class="col-md-6">
+            <div class="form-group">
+              <!-- Name input-->
+              <input class="form-control" id="name" type="text" placeholder="Your Name *"
+                data-sb-validations="required" />
+              <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+            </div>
+            <div class="form-group">
+              <!-- Email address input-->
+              <input class="form-control" id="email" type="email" placeholder="Your Email *"
+                data-sb-validations="required,email" />
+              <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+              <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+            </div>
+            <div class="form-group mb-md-0">
+              <!-- Phone number input-->
+              <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
+                data-sb-validations="required" />
+              <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+            </div>
           </div>
-          <div class="col-lg-4 text-lg-end">
-            <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-            <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+          <div class="col-md-6">
+            <div class="form-group form-group-textarea mb-md-0">
+              <!-- Message input-->
+              <textarea class="form-control" id="message" placeholder="Your Message *"
+                data-sb-validations="required"></textarea>
+              <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
-    <!-- Portfolio Modals-->
-    <!-- Portfolio item 1 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project details-->
-                  <h2 class="text-uppercase">Cantik Dan Elegan</h2>
-                  <p class="item-intro text-muted"></p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                  <p>
-                    
-                  </p>
-                  <ul class="list-inline">
-                    <li>
-                      <strong>Client:</strong>
-                      Tina Lisdyna
-                    </li>
-                    <li>
-                      <strong>Category:</strong>
-                      Wedding adat Minang.
-                  </ul>
-                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                    <i class="fas fa-times me-1"></i>
-                    Close
-                  </button>
-                </div>
+        <!-- Submit success message-->
+        <!---->
+        <!-- This is what your users will see when the form-->
+        <!-- has successfully submitted-->
+        <div class="d-none" id="submitSuccessMessage">
+          <div class="text-center text-white mb-3">
+            <div class="fw-bolder">Form submission successful!</div>
+            To activate this form, sign up at
+            <br />
+            <a
+              href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+          </div>
+        </div>
+        <!-- Submit error message-->
+        <!---->
+        <!-- This is what your users will see when there is-->
+        <!-- an error submitting the form-->
+        <div class="d-none" id="submitErrorMessage">
+          <div class="text-center text-danger mb-3">Error sending message!</div>
+        </div>
+        <!-- Submit Button-->
+        <!-- <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div> -->
+        <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/085238888808">Send Message</a>
+      </form>
+    </div>
+  </section>
+
+  <!-- Portfolio Modals-->
+  <!-- Portfolio item 1 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Cantik Dan Elegan</h2>
+                <p class="item-intro text-muted"></p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                <p>
+
+                </p>
+                <ul class="list-inline">
+                  <li>
+                    <strong>Client:</strong>
+                    Tina Lisdyna
+                  </li>
+                  <li>
+                    <strong>Category:</strong>
+                    Wedding adat Minang.
+                </ul>
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-times me-1"></i>
+                  Close
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Portfolio item 2 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project details-->
-                  <h2 class="text-uppercase">Ballroom Wedding</h2>
-                  <p class="item-intro text-muted"></p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                  <p>
-                    
-                  </p>
-                  <ul class="list-inline">
-                    <li>
-                      <strong>lokasi:</strong>
-                       Aston lombok
-                    </li>
-                    <li>
-                      <strong>Category:</strong>
-                      Ballroom Wedding
-                    </li>
-                  </ul>
-                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                    <i class="fas fa-times me-1"></i>
-                    Close
-                  </button>
-                </div>
+  </div>
+  <!-- Portfolio item 2 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Ballroom Wedding</h2>
+                <p class="item-intro text-muted"></p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
+                <p>
+
+                </p>
+                <ul class="list-inline">
+                  <li>
+                    <strong>lokasi:</strong>
+                    Aston lombok
+                  </li>
+                  <li>
+                    <strong>Category:</strong>
+                    Ballroom Wedding
+                  </li>
+                </ul>
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-times me-1"></i>
+                  Close
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Portfolio item 3 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project details-->
-                  <h2 class="text-uppercase">Outdoor Wedding</h2>
-                  <p class="item-intro text-muted"></p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                  <p>
-              
-                  </p>
-                  <ul class="list-inline">
-                    <li>
-                      <strong>lokasi:</strong>
-                      pantai sengigi
-                    </li>
-                    <li>
-                      <strong>Category:</strong>
-                      Outdoor Wedding
-                    </li>
-                  </ul>
-                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                    <i class="fas fa-times me-1"></i>
-                    Close
-                  </button>
-                </div>
+  </div>
+  <!-- Portfolio item 3 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Outdoor Wedding</h2>
+                <p class="item-intro text-muted"></p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
+                <p>
+
+                </p>
+                <ul class="list-inline">
+                  <li>
+                    <strong>lokasi:</strong>
+                    pantai sengigi
+                  </li>
+                  <li>
+                    <strong>Category:</strong>
+                    Outdoor Wedding
+                  </li>
+                </ul>
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-times me-1"></i>
+                  Close
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Portfolio item 4 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project details-->
-                  <h2 class="text-uppercase">Photographer</h2>
-                  <p class="item-intro text-muted"></p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
-                  <p>
-                   
-                  </p>
-                  <ul class="list-inline">
-                    <li>
-                      <strong></strong>
-                      
-                    </li>
-                    <li>
-                      <strong></strong>
-                      
-                    </li>
-                  </ul>
-                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                    <i class="fas fa-times me-1"></i>
-                    Close
-                  </button>
-                </div>
+  </div>
+  <!-- Portfolio item 4 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Photographer</h2>
+                <p class="item-intro text-muted"></p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
+                <p>
+
+                </p>
+                <ul class="list-inline">
+                  <li>
+                    <strong></strong>
+
+                  </li>
+                  <li>
+                    <strong></strong>
+
+                  </li>
+                </ul>
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-times me-1"></i>
+                  Close
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Portfolio item 5 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project details-->
-                  <h2 class="text-uppercase">Vidiographer</h2>
-                  <p class="item-intro text-muted"></p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                  <p>
-                   
-                  </p>
-                  <ul class="list-inline">
-                    <li>
-                      <strong></strong>
-                     
-                    </li>
-                    <li>
-                      <strong></strong>
-                      
-                    </li>
-                  </ul>
-                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                    <i class="fas fa-times me-1"></i>
-                    Close
-                  </button>
-                </div>
+  </div>
+  <!-- Portfolio item 5 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Vidiographer</h2>
+                <p class="item-intro text-muted"></p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+                <p>
+
+                </p>
+                <ul class="list-inline">
+                  <li>
+                    <strong></strong>
+
+                  </li>
+                  <li>
+                    <strong></strong>
+
+                  </li>
+                </ul>
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-times me-1"></i>
+                  Close
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Portfolio item 6 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project details-->
-                  <h2 class="text-uppercase">Band akustik</h2>
-                  <p class="item-intro text-muted"></p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                  <p>
-                  
-                  </p>
-                  <ul class="list-inline">
-                    <li>
-                      <strong></strong>
-                  
-                    </li>
-                    <li>
-                      <strong></strong>
-                     
-                    </li>
-                  </ul>
-                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                    <i class="fas fa-times me-1"></i>
-                    Close
-                  </button>
-                </div>
+  </div>
+  <!-- Portfolio item 6 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details-->
+                <h2 class="text-uppercase">Band akustik</h2>
+                <p class="item-intro text-muted"></p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                <p>
+
+                </p>
+                <ul class="list-inline">
+                  <li>
+                    <strong></strong>
+
+                  </li>
+                  <li>
+                    <strong></strong>
+
+                  </li>
+                </ul>
+                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                  <i class="fas fa-times me-1"></i>
+                  Close
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="JS/index.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-  </body>
+  </div>
+  <!-- Footer -->
+  <footer class="footer py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
+        <div class="col-lg-4 my-3 my-lg-0">
+          <a class="btn btn-dark btn-social mx-2" href="https://wa.me/085238888808"><i class="fab fa-whatsapp"></i></a>
+          <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/titin.adrina.febrianti/"><i
+              class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/titinku_/"><i
+              class="fab fa-instagram"></i></a>
+
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+          <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <style>
+    @font-face {
+      font-family: font2;
+      src: url(./Font//FREEBSC_.ttf);
+    }
+
+    #tagline {
+      font-family: font2;
+    }
+
+    #logo {
+      width: 10%;
+      display: block;
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1);
+      transition: all 100ms ease-out;
+    }
+
+    #logo:hover {
+      transform: scale(1.04);
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+    }
+  </style>
+
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="JS/index.js"></script>
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <!-- * *                               SB Forms JS                               * *-->
+  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
 </html>
