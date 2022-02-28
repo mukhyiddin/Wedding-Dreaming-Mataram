@@ -1,0 +1,22 @@
+#logo {
+    width: 10%;
+    display: block;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: all 100ms ease-out;
+  }
+
+  #logo:hover {
+    transform: scale(1.04);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+
+  @font-face {
+      font-family: fontku;
+      src: url(../Font/Blacksword.otf);
+  }
+
+  h3{
+      font-family: fontku;
+  }

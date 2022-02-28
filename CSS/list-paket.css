@@ -1,0 +1,171 @@
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: smooth;
+    }
+  }
+ body {
+    background-image: url(/Wedding-Dreaming-Mataram/assets/img/paket/r10_2x_1-hero-all-about-events-wedding-arch.jpg);
+    position:relative; 
+}
+nav {
+    background-color: black;
+}
+h1 {
+    font-family: fonth1;
+    text-align: center;  
+    font-weight: bold;
+    line-height: 0px;
+}
+@font-face {
+  font-family: fonth1;
+  src: url(../Font/Romelio.ttf);
+}
+img {
+  margin-top: 2px;
+  padding-top: 2px;
+  line-height: 0px;
+}
+h3{
+    text-align: center;
+}
+h2 {
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+    font-weight: bold;
+    font-family: fonth2;
+    font-weight: bold;
+}
+@font-face {
+  font-family: fonth2;
+  src: url(../Font/FREEBSC_.ttf);
+}
+.goldpaket {
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+    color: #ffd900;
+    font-weight: bold;
+}
+section.pricing1 {
+    background: #ffd900;
+    background: linear-gradient(to top, #ffd900, #fff064);
+  }
+.pricing2 {
+    background: #030303;
+    background: linear-gradient(to top, #030303, #292500);
+}
+.pricing3 {
+    background: #ffd900;
+    background: linear-gradient(to top, #ffd900, #f8ef9f);
+}
+.card1 {
+    font-family: card1;
+    background-color: #141414;
+    color: #f8ef9f;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    opacity: 0.8;
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 2rem 0 rgba(0, 0, 0, 0.1);
+  }
+.card2 {
+    font-family: card2;
+    background-color: #fff064;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    opacity: 0.8;
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 2rem 0 rgba(0, 0, 0, 0.1);
+}
+@font-face {
+  font-family: card1;
+  src: url(../Font/Romelio.ttf);
+}
+@font-face {
+  font-family: card2;
+  src: url(../Font/Romelio.ttf);
+}
+.pricing hr {
+    margin: 1.5rem 0;
+  }
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+.pricing ul li {
+    margin-bottom: 1rem;
+  }
+.harga {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.hargagold {
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+    margin-top: 2rem;
+    font-weight: bold;
+
+  }
+  /* Hover dicard */
+  @media (min-width: 992px) {
+    .card1:hover {
+      margin-top: -.10rem;
+      margin-bottom: .10rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card1:hover .btn {
+      opacity: 1;
+    }
+  }
+ .card2:hover {
+      margin-top: -.10rem;
+      margin-bottom: .10rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card2:hover .btn {
+      opacity: 1;
+    }
+
+    #logo {
+      width: 10%;
+      display: block;
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1);
+      transition: all 100ms ease-out;
+    }
+  
+    #logo:hover {
+      transform: scale(1.04);
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+    }
+  
+    @font-face {
+        font-family: fontku;
+        src: url(../Font/Blacksword.otf);
+    }
+  
+    h3{
+        font-family: fontku;
+    }
