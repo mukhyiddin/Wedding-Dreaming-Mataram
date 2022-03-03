@@ -6,6 +6,7 @@
  body {
     background-image: url(/Wedding-Dreaming-Mataram/assets/img/paket/r10_2x_1-hero-all-about-events-wedding-arch.jpg);
     position:relative; 
+    backdrop-filter: blur(5px);
 }
 nav {
     background-color: black;
