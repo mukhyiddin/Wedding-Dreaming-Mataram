@@ -1,8 +1,10 @@
-body{margin: 0}
+body {
+  margin: 0;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 40px;
+  gap: 200px;
 }
 .container img {
   width: 100%;
@@ -18,31 +20,31 @@ body{margin: 0}
 }
 
 @font-face {
-    font-family: fontku;
-    src: url(../Font/Blacksword.otf);
+  font-family: fontku;
+  src: url(../Font/Blacksword.otf);
 }
 
 h1 {
-    font-family: fontku;
-    padding-top: 7rem;
+  font-family: fontku;
+  padding-top: 7rem;
 }
 
 h3 {
-    font-family: fontku;
-    padding-top: 5rem;
-    text-align: center;
-    color: #FED136;
+  font-family: fontku;
+  padding-top: 5rem;
+  text-align: center;
+  color: #fed136;
 }
 
 p {
-    font-family: montserrat;
+  font-family: montserrat;
 }
 
 .videoframe {
-    height: 350px;
-    width: 513px;
+  height: 350px;
+  width: 513px;
 }
 
 iframe {
-    padding-top: 3rem;
+  padding-top: 3rem;
 }
