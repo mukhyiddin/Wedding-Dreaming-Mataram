@@ -129,6 +129,13 @@ section.pricing1 {
 
   }
   /* Hover dicard */
+  @media (min-width: 576px) {
+    .container-sm,
+    .container {
+      max-width: 540px;
+    }
+  }
+
   @media (min-width: 992px) {
     .card1:hover {
       margin-top: -.10rem;
